@@ -2,9 +2,11 @@
 <HTML lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=brave">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Document</title>
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="styles.css">
+	<script src="index.js" defer></script>
 </head>
 <body>
 	<div class="container">
@@ -13,9 +15,10 @@
       learning JavaScript.</p>
       <div class="circle" id="circleID"></div>
       <div class="action">
-          <button onclick="paint('red')">Button</button>
-          <button onclick="paint('green')">Button</button>
-          <button onclick="paint('yellow')">Button</button>
+          <button onclick="paint('red')">Red</button>
+          <button onclick="paint('green')">Green</button>
+          <button onclick="paint('yellow')">Yellow</button>
+          <button id="colorButton" onclick="ChangeColor()">Random Color</button>
       </div>
 	</div>
 </body>
